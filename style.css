@@ -1,0 +1,112 @@
+* {
+    font-family: 'Ubuntu', serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.container {
+    padding: 5%;
+}
+form {
+    max-width: 400px;
+    text-align: left;
+    padding: 20px 0;
+}
+body {
+    text-align: center;
+    font-size: 100%;
+}
+h1 {
+    font-size: 300%;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+input, textarea, label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+input, textarea {
+    background-color: transparent;
+    font-size: 90%;
+    padding: 10px;
+    border: 0;
+}
+input[type=submit] {
+    padding: 12px 0;
+    border-radius: 30px;
+    font-size: 100%;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+a {
+    font-style: italic;
+}
+@media (prefers-color-scheme: light) {
+    body {
+        background: #EEE;
+    }
+    h1 {
+        color: #333;
+    }
+    p {
+        color: #666;
+    }
+    input,
+    textarea,
+    label {
+        color: #111;
+    }
+    input, textarea {
+        border-bottom: 2px solid #666;
+    }
+    input[type=submit] {
+        background-color: #BBB;
+        color: #666;
+    }
+    input[type=submit]:hover {
+        background: #555;
+        color: #EEE;
+    }
+    a {
+        color: #888;
+    }
+    a:hover {
+        color: #111;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111;
+    }
+    h1 {
+        color: #DDD;
+    }
+    p {
+        color: #AAA;
+    }
+    input,
+    textarea,
+    label {
+        color: #EEE;
+    }
+    input, textarea {
+        border-bottom: 2px solid #AAA;
+    }
+    input[type=submit] {
+        background-color: #555;
+        color: #AAA;
+    }
+    input[type=submit]:hover {
+        background: #BBB;
+        color: #111;
+    }
+    a {
+        color: #888;
+    }
+    a:hover {
+        color: #EEE;
+    }
+}
